@@ -1,0 +1,42 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python cache
+*.cache/
+
+# Virtual environment
+venv/
+env/
+pipenv/
+
+# Django related files
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Ignore local settings, modify as needed if you use a different settings file
+*/settings_local.py
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# Ignore sensitive or environment-specific files
+*.env
+.env.*
+
+# Ignore package manager files
+node_modules/
+*.lock
+yarn-error.log
+
+# Ignore database backups
+*.bak
+*.dump
